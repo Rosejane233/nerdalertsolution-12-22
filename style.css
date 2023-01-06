@@ -10,7 +10,7 @@
 }
 
 body {
-  padding: 40px 10%;
+  padding: 20px 5%;
   background: #f5f5f5;
 }
 
@@ -42,7 +42,7 @@ a{
 }
 
 .side-bar{
-  background: rgb(224, 221, 219)5);
+  background: rgb(230, 230, 231);
 }
 
 
@@ -51,11 +51,11 @@ a{
     flex-direction: column;
   }
   .side-bar{
-    background: #114;
-    color: white !important;
+    background: #d3defa;
+    color: rgb(214, 210, 210) !important;
   }
   .side-bar a{
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
   }
 }
 
@@ -65,7 +65,7 @@ a{
 
 nav.nav-menu {
   width: 100%;
-  background-color: #15222b;
+  background-color: #0c71c3;
   padding: 5px;
   border-radius: 5px;
 }
@@ -103,7 +103,7 @@ nav.nav-menu ul {
 }
 
 section {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 section.head,
@@ -115,7 +115,7 @@ section.youtube-embed {
   display: block;
   padding: 20px 20px;
   width: fit-content;
-  background: #15222b;
+  background: #0c71c3;
   border-radius: 15px;
   text-decoration: none;
   color: white;
@@ -127,7 +127,7 @@ section.youtube-embed {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 32px;
   color:black;
   font-family:'Arial black',sans-serif;
 }
@@ -136,7 +136,7 @@ h2 {
   margin-bottom: 20px;
   color:black;
   text-align: center;
-  font-size:30px;
+  font-size:23px;
   font-family: Roboto, sans-serif;
 }
 
@@ -149,6 +149,10 @@ h3{
 }
 ul{
 padding-left: 30px;
+}
+
+ol{
+    padding-left: 30px;
 }
 
 .side ul{
@@ -167,10 +171,9 @@ p {
   font-family: Roboto, sans-serif;
 }
 img {
- width: 400px;
- height: 300px;
- border-radius: 10px;
- 
+ border-radius: 15px;
+ width: 800px;
+ height: 400px;
 }
 .size img{
   width:200px;
